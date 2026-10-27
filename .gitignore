@@ -1,1 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+venv/
 .venv/
+
+# Intermediate model checkpoints and backups
+dolly-lora/checkpoint-*/
+dolly-lora/epoch1_backup/
+dolly-lora/epoch2_backup/
